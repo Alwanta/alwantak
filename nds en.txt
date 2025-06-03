@@ -1,0 +1,727 @@
+Swing Trading: A type of trading where the trader holds buy or sell positions for several days to several weeks. This style typically involves short to medium-term market participation and is most suitable for those who prefer having one or several trading opportunities per week. In the NDS strategy, market direction is determined from daily and 4-hour timeframes, then the 10-minute timeframe can be used for entry. Using the 1-minute timeframe for entry is better but not necessary.
+
+
+Day Trading: In this style, traders execute buy or sell trades within a single trading day. Some day traders enter and exit positions within minutes or even seconds, with the main goal being to capture small but quick profit opportunities. In the NDS strategy for day trading, market direction is determined from smaller timeframes like 30-minute charts, then the 1-minute timeframe is used for entry.
+
+
+A branch of Day Trading is Scalping, where market direction is determined on the 30-minute timeframe, then entries and exits are executed rapidly with higher volume on 1-minute and 10-second timeframes.
+
+
+The following table shows different timeframes for Swing Trading, Day Trading, and Scalping:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Trading Style	Higher Timeframe for Analysis and Trend Identification	Trading Timeframe	Lower Timeframe for Precise Entry and Exit
+Swing Trading	Weekly/Daily	H4	M30/M10
+Day Trading	H4/H1/M30	M5/M1	M1
+Scalping	M30	M1	S10 (10 Seconds)
+
+Note: Super Scalpers don't need to determine direction and only focus on entry points.
+
+
+Definition of Nodes
+
+Before starting this course, you need to understand the definition of NODES to avoid confusion throughout the course.
+
+
+Nodes: Nodes or junctions refer to peaks and troughs that are numbered by codes running in banks, forming one after another according to NDS strategy rules. The conditions for selecting nodes are as follows: any peak that forms higher than peak N1 is considered peak N2, and any time a peak forms higher than peak N2, we call it N3, and then the price drops. These nodes follow the same pattern in troughs - if a lower trough forms below node S1, we call it S2, and a trough lower than S2 is known as S3.
+
+
+In advanced Algorithmic Trading discussions, we don't name these nodes as N1, N2, N3, S1, S2, S3, and throughout the course, you will encounter numbers 123 at peaks and troughs.
+
+
+Introducing the NDS Strategy
+
+The purpose of this course is to introduce the powerful NDS (Nodal Displacement Sequencing) strategy, which was first presented globally by Dr. Fuzzy Logic.
+
+
+As you can see in the left image, this strategy is based on five fundamental pillars:
+
+
+Fractal Analysis is at the top of this pyramid, with a top-down view of the market where higher timeframes influence lower timeframes, and lower timeframes collectively create higher timeframes.
+
+Cycle Analysis examines various types of cycles and their elements. Since the first pillar is a prerequisite for the second, we will first address Cycle Analysis and understanding its components before guiding you to Fractal Analysis.
+
+Symmetry is one of the main pillars of aesthetics and visual characteristics found in all natural forms. It can be observed in the human body (two eyes, two ears, two arms, two legs) and is equally visible in animals and plants. Symmetry is also widely used in ancient and modern architecture. In mathematics, symmetry can be described as an object that remains constant through any geometric transformation such as reflection, rotation, or scaling. Mathematical symmetry can be explained as the passage of time, a spatial relationship, and an aesthetic element found in abstract objects, theoretical models, language, music, and knowledge itself. Symmetry can be observed in various branches such as mathematics (especially geometry), natural science, architecture, art, and music. Symmetry is exactly the opposite of asymmetry.
+
+Sequencing is the central core and most essential pillar of the NDS strategy. The other pillars are auxiliary tools that help this fourth pillar. In this pillar, node sequences form one after another in order and are based on the 123 sequence principle, occurring in sequence. Therefore, the Sequencing pillar has high application in the market, similar to spring, summer, autumn, and winter, which happen in this order every year without exception - it's a definite matter. We will discuss this topic further in this course.
+
+Zero-Sum Game is a mathematical model of a situation where one participant's profit or loss exactly equals the losses or profits of other participants. We will fully explain these five pillars and then combine them.
+
+
+Natural Cycle
+
+The natural cycle works as follows:
+
+
+Sunlight causes evaporation of water from seas and plants
+Water rises toward the sky as vapor
+Water vapor in the sky condenses and clouds form
+Clouds begin to rain
+Rainwater falls on mountains, seas, and land
+Water penetrates the ground through soil or flows as flood
+Some water returns to seas, some enters underground water tables
+The cycle continues with re-evaporation of water
+
+As you observed the natural cycle on the previous page, this cycle also occurs cyclically in financial markets. These cycles constantly repeat in the market but don't always have the same pattern. Why? Because besides the price dimension, we also have time and volume dimensions. So we can say that the market consists of three general dimensions: price, time, and volume. In each trading session, due to the variable flow of orders in the market, we sometimes have very different cycles compared to each other.
+
+
+Therefore, to master cycle recognition in Discretionary Trading, there is no way other than mental practice and getting your eyes accustomed to these patterns and cycles. Don't worry; hopefully, after completing this manual, all the above points will be imprinted in your subconscious.
+
+
+Positive & Negative Cycles
+
+As you can see in the image below, the market begins to fall at the red vertical line, then returns upward to the 86.4% level of its downward leg, and the cycle closes at the white vertical line. We call this a negative cycle. Why? Because a negative cycle first drops downward, then rises upward and closes its cycle.
+
+
+Next, you can see that from the white vertical line, the price rises upward and then returns downward to 86.4% of the previous rise, and the cycle closes. We call this a positive cycle. So you now understand what patterns positive and negative cycles have in the market. A cycle that is still open is called an "Active Cycle."
+
+
+A Full Positive Cycle
+
+The schematic on the previous page shows the overall view of a positive cycle, consisting of two Hook patterns, two Rally patterns, and one Flag pattern. After the Flag pattern, we will have a downward movement, and the cycle will close at point T. So generally, a cycle starts from point R and will create two hooks, two rallies, and one flag until point F, and then will drop to point T.
+
+
+As you can see in the previous page's cycle, at the end of Rally 2, there will be a price drop (red line on the chart) which is called "Sellers Move In." This term means that sellers enter, and for them to exit, the price goes up with a sharp upward movement but with very low volume (Low Volume Spike), triggering the stop loss of all traders who had opened Short positions. After causing losses to the sellers, amateur and novice traders think the market has taken an upward trend and begin to make Long trades, and ultimately the market shows no mercy to this second group (buyers) either and drops to close its open cycle. Thus, the components of a cycle or the anatomy of a cycle are depicted in the schematic on the previous page.
+
+
+In later sections of the course, you will become more familiar with Symmetry and Sequencing in a cycle and learn the application of each in a cycle.
+
+
+Positive Hook
+
+This Hook pattern (Hook is like a fishing hook meant to catch Retail Traders). Traders think the price is increasing, while at peak 3, the price completely reverses.
+
+
+In an ideal Hook pattern, we have three peaks and three troughs. In an ideal type A positive hook, the conditions for peaks and troughs are as follows: first peak 1 forms, then peak 2 is higher than peak 1, and peak 3 is higher than peak 2. Also, trough 2 is lower than trough 1, and trough 3 is lower than trough 2. If such conditions are met, you have caught the best and most ideal type of positive hook. A hook is expected to start from point T, go up to peak 3, then drop to trough 3, which is 86.4% of the movement from point T to peak 3.
+
+
+The figure on the right shows a type A positive hook pattern at the end of a downtrend. Here you can expect the price to rise from trough 3.
+
+
+Negative Hook
+
+This Hook pattern is similar to the previous pattern, with the difference that it is an ideal type A negative hook. Here, the conditions for peaks and troughs are as follows: first trough 1 forms, then trough 2 is lower than trough 1, and trough 3 is lower than trough 2. Also, peak 2 is higher than peak 1, and peak 3 is higher than peak 2. If such conditions are met, you have caught the best and most ideal type of negative hook. A hook is expected to start from point T, go down to trough 3, then rise to peak 3, which is 86.4% of the movement from point T to trough 3.
+
+
+The figure on the right shows a type A negative hook pattern at the end of an uptrend. Here you can expect the price to fall from peak 3.
+
+
+Type A Positive Hook
+
+This Hook pattern, like previous patterns, must always close at point 3. Trough 1, despite being a small downward wave and small correction, is still a valid trough, and we expect the price to come below trough 1 and form trough 2. Then the hook pattern will completely close at trough 3 at 86.4% of the movement from point T to point 3.
+
+
+So you learned that a hook pattern will always close at point 3.
+
+
+As you observed in the images on previous pages, in a type B positive hook, peaks 1 and 2 always form, and peak 3 does not form. Similarly, in a type B negative hook, troughs 1 and 2 always form, and trough 3 does not form.
+
+
+Type A Negative Hook
+
+This Hook pattern, like previous patterns, must always close at point 3. Peak 1, despite being a small upward wave and small correction, is still a valid peak, and we expect the price to come above peak 1 and form peak 2. Then the hook pattern will completely close at peak 3 at 86.4% of the movement from point T to point 3. A hook pattern will always close at point 3.
+
+
+In this pattern, you see that in the dropping phase from point T to point 3, the price leaves two peaks 1 and 2, and our expectation is that the price will go above peak 2 and completely close the hook at 86.4% of the previous downward leg.
+
+
+Define the Rally in a Cycle
+
+In any trading style, before making a trade, you must first know which direction the market is trending. As you can see in the schematic on the next page, in the forward phase from point T to point (4), there are two rallies. What does rally mean? Rally means the beginning of a trend. So in rallies, since a trend has formed, we can look for setups and trading opportunities in the direction of the trend.
+
+
+So the main application of a rally is that it shows us the direction of the trend. In the image on the next page, you can see Rally 1 and Rally 2. Whenever you see two hooks in a row in the market, Rally 1 is expected to begin, then the market usually makes two peaks and two troughs (1) and (2) in the corrective wave, and after the correction, Rally 2 begins.
+
+
+So generally, in a cycle that has a forward phase and a return phase, we will have hooks, rallies, and a flag, then we will expect a drop to point T, and the cycle will be completely closed in the relevant timeframe. These patterns take different shapes and patterns due to other dimensions like time and volume, and you may not correctly identify these patterns in the first few weeks, but don't worry and give yourself time. Rest assured that all these patterns will be completely imprinted in your mind, and you will easily be able to know where a price chart is in its cycle at any time.
+
+
+Upward Rallies
+
+If you look at the image on the right, you can see that the price is stagnant between two powerful upward legs (Rally 1 & Rally 2), which is called "Consolidation." This term in the market means neutral and does not have a trend. Therefore, in most cases after Rally 1, the price leaves two troughs 1,2 to form trough 3 below trough 2 in the future after the flag forms and the price drops.
+
+
+In the Sequencing section, we will explain more about the order of node sequences. At this stage, it is enough to know that after a Rally, the market enters a neutral trend and then continues its movement to the extent of the length of Rally 1. Therefore, as a trader, we will look for Long positions in such scenarios at node 2 (trough) in lower timeframes.
+
+
+Downward Rallies (Drops)
+
+In this schematic, similar to the previous page, you can see that the price is stagnant between two powerful downward legs (Drop 1 & Drop 2) and has begun its Consolidation trend. Therefore, in most cases after Drop 1, the price leaves two peaks 1,2 to form peak 3 above peak 2 in the future after the flag forms and the price rises.
+
+
+The market enters a neutral trend after a Drop and then continues its movement to the extent of the length of Drop 1. Therefore, as a trader, we will look for Short positions in such scenarios at node 2 (peak) in lower timeframes.
+
+
+Positive Flag or Lip
+
+The pattern on the right is called a Flag or Lip pattern, which shows us the end of a trend. If the Flag pattern forms at the end of an uptrend, we expect a drop from point 4 to point T. If the price for any reason cannot drop to point T, a drop to point 2 as the first target is certain. In the Flag pattern, our expectation in the minimum possible case is a drop from point 4 to point 2, then the next drop point is point T, and the cycle closes.
+
+
+So generally, a flag, like the white chart, rises from an upward wave, then a corrective wave to point 2, and finally up to point F, and the Flag pattern is formed. In other words, first a rally forms, then sellers enter, and finally from point 2 to point F, it forms an upward spike with low volume (Low Volume Spike), and the price at point F will not have the power to go higher and begins to drop to point T and closes the cycle.
+
+
+Negative Flag or Lip
+
+If the Flag pattern forms at the end of a downtrend, it shows us the end of the trend. Therefore, from point 4 to point T, we expect an upward movement. If the price for any reason cannot rise to point T, a rise to point 2 as the first target is certain. Also, in the Flag pattern, our expectation in the minimum possible case is a rise from point F to point 2, then the next rise point will be point T, and the cycle will close.
+
+
+A Flag pattern (white chart) is formed from a downward wave, then a corrective wave to point 2, and finally comes down to point 4. In other words, first a drop forms, then buyers enter, and finally from point 2 to point F, it forms a downward wave with low volume (Low Volume Spike), and the price at point F will not have the power to go lower and begins to rise to point T and closes the cycle. On the next page, you can see some examples of flags.
+
+
+Fractal Analysis
+
+Markets are fractal in appearance and structure. But what does fractal mean in the market?
+
+
+A fractal is actually a pattern where each part of it resembles the whole pattern. Markets also have a fractal nature, meaning that the same pattern forms in all timeframes. In other words, the patterns of the 1-minute timeframe chart combine to form the patterns of the 5-minute timeframe chart. The patterns of the 5-minute chart are the same patterns that exist in the 1-minute chart, and they also combine to form the patterns of the 15-minute timeframe. The formation of these patterns continues in the same way and reaches daily, weekly, monthly, and annual timeframes. All these timeframes have the same patterns.
+
+
+Each part of the trend includes the pattern of main movement, correction, and then main movement again, and each of these sections also forms with the same pattern in lower timeframes. Theoretically, this structure continues in the same way down to the tick chart timeframe. Also, a large market structure itself can be just a part of a trend related to a higher timeframe. In this part of the course, we intend to discuss the patterns you learned in the previous Cycle Analysis section from the perspective of Fractal Analysis. Look carefully at the image on the next page.
+
+
+In the image on the previous page, you can see a large Daily cycle that contains three smaller H1 cycles. At point R, both the large Daily cycle and the small H1 cycle open, and a little further on, the first H1 cycle closes at its 86.4%. Then immediately the next small H1 cycle opens, and this cycle also closes at its 86.4%. Remember, the large Daily cycle is still open. Next, after both small H1 cycles close, you can see that the large H1 cycle opens and rises to point 4, and finally at point T, both the large H1 cycle and the large Daily cycle will close.
+
+
+So generally, H1 cycles open and close one after another to close their parent cycle, which is Daily. This type of view is a fractal view of the market. After practicing and recognizing large and small cycles, your mind will get used to it, and it will become very easy for you. This model of cycle that you observed fractally on the previous page was semicircular. Now that we know a semicircle is the same as a cycle, from now on we can use the M pattern in a positive cycle and the W pattern in a negative cycle instead of a semicircle. The M pattern consists of a positive flag + a downward leg, and the W pattern is formed from a negative flag + an upward leg.
+
+
+In Fractal Analysis, because smaller patterns come together to produce larger patterns, according to this definition, we can say that each small pattern can also be a larger pattern of lower timeframes. Therefore, we can use the Hook pattern instead of a semicircle, and the M or W patterns instead of the Hook pattern. Ultimately, you know that a complete cycle consists of five main patterns including two hooks, two rallies, and a flag. In the following pages, you will observe the stages of converting patterns to each other and will see which patterns can replace each other. With these images, you can understand Fractal Analysis, compare patterns with each other to be able to capture these patterns in financial markets and see the effect of higher timeframes on smaller timeframes.
+
+
+Now that we understand that a cycle is the same as a semicircle, and a semicircle is the same as a large hook, and a large hook is the same as the M or W pattern, and the M/W pattern is the same as a large flag that has closed, and all of these have been equal to each other, we can conclude that the entire market is summarized in one pattern, and that is a Hook or a Flag or a semicircle that also contains the same patterns within itself. Therefore, in the Fractal Analysis section, you realize that all patterns are equal to each other, and we don't have any new pattern, and we simply have a single behavior that produces different patterns due to the variable volume in each trading session.
+
+
+Fractal Analysis
+
+Now that you understand Fractal Analysis, on the next page you can see the YM chart in the four-hour timeframe that has formed an ideal hook. According to the rules of Fractal Analysis, we said earlier that a Hook pattern can be the same semicircle or M/W pattern or large flag in other timeframes or other scales. So you can see that an ideal hook in the four-hour timeframe can be a large hook in the fifteen-minute timeframe. It can also be a semicircle or a complete cycle in the fifteen-minute timeframe. So we can conclude that a complete cycle in fifteen minutes, which consists of small hooks, small rallies, and a flag, is the same as the Hook pattern in the four-hour timeframe. Also, on the following pages, you can see that the same four-hour hook this time appears as an M pattern in the fifteen-minute timeframe, which itself is formed from the Flag pattern (orange chart) + a drop to the end of the cycle (red line). So generally, we can say that for the images on the next two pages, the following formula applies:
+
+
+4H Hook = 15Min Cycle = 15Min M Pattern = 15Min Big Flag
+
+
+Now that you are familiar with the fractal structure and understand the structure from whole to part, from higher timeframe to lower timeframe, you can also have a fractal view from part to whole, i.e., from lower timeframe to higher timeframe. As you know, a large hook consists of a forward phase and a return phase. A 123Flag setup comes out of a large hook, so if we consider the end of the first rally as peak 1, the end of the second rally as peak 2, the beginning of Sellers Move In as peak 3, and the highest point of the hook as Flag, the 123Flag setup will appear.
+
+
+So generally, a large hook can be considered as three peaks and one flag and one return leg, which we have depicted the combination of these two schematics in the following pages.
+
+
+Symmetry
+
+In very simple terms, when something is the same on both sides, it is symmetrical.
+
+
+If a vertical line is drawn in the middle of the figure on the right, and both sides of the line have the same shape, we say this figure is symmetrical. In symmetrical shapes, both sides of the shape are exactly the same. When we look a little carefully at our surroundings, at plants, objects, and creatures, we will notice that the shape of most of them is symmetrical, and this symmetry gives them a special beauty. Financial markets are no exception to this rule.
+
+
+In general, symmetry in financial markets is divided into two main categories:
+
+
+Price symmetry refers to measuring the length of upward or downward legs on the price axis that form symmetrically in the market, as well as measuring the distance between nodes 1&2 to estimate the distance between nodes 3&2.
+
+
+Time symmetry refers to measuring the length of upward or downward legs on the time axis that form symmetrically in the market.
+
+
+It is worth noting that symmetry is a completely approximate technique, and there is no guarantee of reaching the exact point found by symmetry. Also, time symmetry is related to the Algorithmic Trading section, so we will fully address it in the relevant section.
+
+
+Strong Movements and Corrective Movements in the Market
+
+According to the Market Structure, whenever the price makes a strong upward movement (Strong Rally), we expect a price correction (Retracement/Correction). So as you can see in the figure on the right, the first upward leg that is a Strong Rally is R1, and the small downward leg that is a Correction is C1, and then the third leg that is a strong upward movement is R2, and the correction after that is C2, and the upward movement again is shown with R3. So generally, in an overall price structure, we always deal with two types of movements that include Strong Rallies and Retracement/Correction Moves.
+
+
+Price Symmetry in Strong Upward Movements
+
+Before anything else, keep in mind this point once again: the symmetry technique is a completely approximate technique for which there is no guarantee that the price will reach the intended target. At this stage, we intend to discuss the same schematic from the previous page from the perspective of price symmetry. As you can see in the image on the right, the length of all three rallies has been measured using the ruler tool, and their values are approximately, for example, 300 Points or Pips. In the topic of price symmetry, the length of R1 is always equal to the length of R2, and the length of R2 is equal to the length of R3. In other words, the movement R2 is the mirror of the movement R1, and the movement R3 is the mirror of the movement R2. Therefore, market movements behave like symmetrical geometric shapes.
+
+
+Therefore, we can conclude that not only in all creations of the universe, including human body parts, animals, and plants, does the symmetry issue apply, but also in human behavior and psychology, this issue is valid. Therefore, since market movements are based on collective wisdom, all market movements can also be symmetrical.
+
+
+Price Symmetry of Corrective Movements in an Uptrend
+
+Now that you understand price symmetry in strong upward movements or Strong Rallies, you can observe price symmetry in Correction movements in the image on the right. As you can see, in the corrective leg C1, the price has corrected, for example, 130 Points or 13 Pips. We expect the market to symmetrically perform the same amount of 130 Points in the corrective leg C2. In other words, the corrective leg C2 is the mirror of the corrective leg C1.
+
+
+So generally, we can conclude that if the market forms an upward movement R1 and a corrective movement C1, we can estimate according to the third pillar of the NDS strategy, which is symmetry, how far the upward movement R2 will be and also how much the corrective movement C2 will drop after the upward movement R2.
+
+
+Price Symmetry in Market Structure and Its Application:
+
+By combining the two previous images, you can observe symmetry in both the movements R1, R2, R3, and in the corrective movements C1, C2. Now that you understand price symmetry in the market structure, we address the application of symmetry in the market (Symmetry Usage):
+✓ Determining market direction
+✓ Finding the target point in the market
+
+
+So generally, with knowledge of the third pillar of the NDS strategy, which is symmetry, we will be able to determine the direction of the market to a desirable extent and also obtain the probable point that the price tends to reach from it.
+
+
+Symmetry is one of the main pillars of this strategy that is valid in the market. Next, we will draw your attention to several techniques to make price symmetry more accurate.
+
+
+Since symmetries have expansionary properties, the length of the corrective movement A1 is not equal to the length of the corrective movement A2, and also the length of the corrective movement B1 is not equal to the length of the corrective movement B2. Therefore, we first address the philosophy of this expansion and then how to calculate it using mathematics. This schematic shows an example of an uptrend. As you can see, first at the beginning of the uptrend, a rally forms upward, then we have a correction to the size of A1 and a correction to B1. You can see that after the correction B1, the price rallies upward once more and forms the corrections A2, B2.
+
+
+The question is why the lengths of the corrective movements A2, B2 are not equal to the lengths of the corrective movements A1, B1? Because first in the first rally, buyers enter and exit their Long trades with low volume, forming the first correction wave. Then the second group of buyers enters and forms the second rally until the first group of buyers who took Long at the beginning of the trend exit their trades with a larger volume, and also the second group who took Long at the beginning of the second rally exits with low volume. Therefore, the second correction will also be greater than the first correction. So generally, the further we get from the beginning of a trend, the larger corrections we expect compared to the early trend.
+
+
+Calculating Price Symmetry
+
+In this schematic, we intend to familiarize you more with price symmetry using mathematics so that you can find mirrors more accurately. However, it is worth noting that this topic is related to the Algorithmic Trading section, which we will teach you after completing the Discretionary Trading topics. So we just take a brief look at this topic. As you can see in the picture, the length of movement A1 is not the same size as the length of movement A2, and also the length of movement B2 is not the same as the length of movement B1. Therefore, we must first understand how much A2 is more than A1 and denote that amount with K:
+
+
+K = (A2 / A1) - 1 → A2 = A1 + (A1 * K)
+
+
+And also for calculating B2 we have:
+B2 = B1 + (B1 * K) = B1 + B1 * [(A2 / A1) - 1]
+B2 = B1 + (B1 * A2 / A1) - B1 = (B1 * A2) / A1
+
+
+As a result, to find the length of movement B2, it is enough to use the following formula:
+B2 = (B1 * A2) / A1
+
+
+Also in mathematics, according to the proportion theorem, whenever you have three values A1, A2, B1, you can calculate B2 as follows:
+A1/B1 = A2/B2
+B2 = (B1 * A2) / A1
+
+
+Therefore, from two methods, we reached a general relationship. With the lengths of A1, A2, B1, we can calculate B2 according to the formula obtained above and estimate a more accurate price symmetry.
+
+
+Calculating Price Symmetry
+
+For better understanding, a numerical example with the following values is assumed:
+A1 = 100 Points = 10 Pips
+A2 = 120 Points = 12 Pips
+B1 = 200 Points = 20 Pips
+
+
+To calculate the length of B2, according to the formula on the previous page, we have:
+B2 = (B1 * A2) / A1 = (200 * 120) / 100 = 240 Points = 24 Pips
+
+
+You saw how easily we calculated the length of the drop B2 according to price symmetry. Therefore, with the above calculations, we can conclude that the mirror of the length of movement B1, which is the length of movement B2, will be 240 Points. Also, for better understanding, you can convert this derived formula through induction in mathematics to the following relationship:
+B_n = (B_{n-1} * A_n) / A_{n-1}
+
+
+Price Symmetry in a Cycle
+
+You learned how to calculate price symmetry in previous pages. Now let's see what the application of symmetry is in a cycle and how it is calculated.
+
+
+As you can see in the image on the right, which shows a complete cycle, according to the previous sections of the course, we learned that after the formation of two hooks, we will expect several rallies. In the price symmetry section, we understood that a strong upward movement (Rally 1) will be followed by a small correction and then another upward movement (Rally 2) will begin. Therefore, we expect that according to symmetry, the length of the Rally 2 movement will be equal to the length of the Rally 1 movement. Generally, by combining the pillars of the NDS strategy, we will be able to predict the length and direction of the Rally 2 movement, as well as the length and direction of the continued movement to the flag relative to Rally 2 in an open cycle (Active Cycle). After the formation of the flag, we will enter the return phase of the cycle, and again the stages of price symmetry for estimating drops will also be calculable, as well as corrective movements through the mathematical relationships we explained earlier.
+
+
+Price Symmetry in the Distance Between Nodes
+
+As you witnessed the symmetry of strong movement legs and corrective legs in previous pages, another type of symmetry that also exists in financial markets is the price symmetry between the nodes of a hook.
+
+
+In the schematic on the right, the size of the distance from node 1 to node 2 is the red box, so it is expected that the same price distance will occur between nodes 2 and 3.
+
+
+Also, this symmetry between nodes 1 and 2 and nodes 2 and 3, which are troughs (green nodes), is also established.
+
+
+• It is worth noting that this type of symmetry, like leg symmetry, is completely approximate and can have expansionary properties and will not have certainty.
+
+
+Time Symmetry in Hooks
+
+The second category of symmetries is time symmetry. In this way, in the hook-hook-rally pattern, always the time spent in the formation of the first hook (T1) with the time spent for the formation of the second hook (T1+K) with an expansion coefficient (K) is approximately equal. This symmetry between blue hooks can also be observed in higher timeframe hooks (orange). Therefore, the time spent in the first large orange hook (T2) with the time spent in the second large orange hook (T2+K) with an expansion coefficient (K) are approximately equal. Also, this type of symmetry, like price symmetry, in addition to the expansionary property, is approximate and does not have certainty.
+
+
+Reverse Symmetry
+
+We previously learned that a strong upward leg, after forming a corrective leg, forms again symmetrically to the same extent as the first upward leg. One of the other applications of price symmetry is using its reverse.
+
+
+If we don't have a corrective leg beforehand and can't use symmetry for the current corrective leg, we use the Reverse Symmetry technique.
+
+
+In the schematic on the right, suppose the price is currently at point B. Now to obtain point C, which is the end of the corrective leg (red dotted line), we use the AB leg as reverse symmetry.
+
+
+Since the market is going to close the negative hook near the 86.4% level, the price will form node 3 by reaching open nodes 1,2. Therefore, we can place the AB leg near the 86.4% level and on node 3 to obtain the CD leg (white dotted line). Now with this reverse technique, we were able to estimate point C, which was the end of the corrective leg BC.
+
+
+Pay attention to the price symmetry between the distance of nodes 1 and 2 and nodes 2 and 3 (gray box).
+
+
+Sequencing
+
+Nature has a cyclic characteristic; there is no such thing as death, and everything is in evolution, from a small evolution to a larger one, repeating in order, like a newborn baby who goes through its developmental path until death and lives in many cycles, both physically and spiritually, and these cycles continue even after death, or like the Earth that moves in a specific orbit and has its own cycle, causing day and night or seasons.
+
+
+A cycle always goes from Micro to Macro, that is, it moves from a part to a whole. These cycles are constantly opening and closing, and within the cycles, nodes are forming one after another in order, which is called Sequencing. Like the cycle of each year that has four seasons, first the node of spring season is formed, then it's the turn of the summer season node, and then it's the turn of the autumn season node, and then the last node, which is the winter season, is closed, and finally the overall cycle of the year is closed. Now that we understand these concepts, we can say that nature and the entire universe follow a mathematical model consisting of these five pillars of the NDS strategy. So we can conclude that this mathematical model is the hidden secret of the universe, and since the market is also a part of the whole universe and follows the laws of the whole, therefore the market also inherits this mathematical model.
+
+
+Now that the concept of sequence has been established for you, on the next page we will define it in the market so that we can identify the market cycles that are repeating fractally and number and distinguish them like seasons that form one after another.
+
+
+Description of Sequence in the 123Flag Setup
+
+As you can see in the image on the right, on the left side of the schematic, we have three green troughs 123. After the formation of the third trough, which is lower than the second trough, the market corrects. Also, above the red peak number 1, peak number 2 is located, and above peak number 2, red peak number 3 is formed. You can only have correct numbering if you first know that the second red peak is always higher than the first red peak, and the third red peak is also higher than the previous second peak. This is a general rule in the sequencing of the NDS strategy, and that is why the peak that is marked with a yellow circle does not have a number because it could not form above red peak number 1. Sequencing is the pulse of the market and is of high importance. On the following pages, you can see how to correctly number peaks and troughs.
+
+
+Zero-Sum Game
+
+The fifth pillar of the NDS strategy is the Zero-Sum Game, which is a mathematical model of a situation where the profit or loss of one participant exactly equals the (profits) or (losses) of the other participant(s). If the sum of the participants' profits is added together and the sum of losses is subtracted from it, the result will be zero. For example, cutting a cake where taking a larger piece reduces the amount of cake available for the rest. If all participants value each unit of cake equally, it is a zero-sum game.
+
+
+Futures Market and Options Market in financial markets are also examples of zero-sum games. Because opposite the winning person in the trade, there is another person who has lost in the trade. In the picture on the left, players A, B, C, D are the participants in the game. Each has put one hundred dollars on the table; in the end, there is one winner, and player B will receive three hundred dollars from other players in addition to his own hundred dollars. Other players, in addition to losing the game, have also lost their capital.
+
+
+As you can see in the image on the right, we consider an ideal Hook pattern. If we define the 100 upward movement of a hook from point A to point G, traders can only close their trades with profit in 13.6% of the A-G movement, and the market drops from point G to 86.4% of the length of the G-A movement (the hook on the right) and takes back the profit received from long trades.
+
+
+Therefore, we will have two types of traders. The first type is amateur and novice traders who are unaware of the Zero-Sum Game and will lose whether they buy or sell at points B, C, D, E, F, G, H. This group often considers points C, D, E, F, G as Supply/Demand and Support/Resistance levels.
+
+
+The second type is traders who are aware of the Zero-Sum Game and will never fall into the trap of a hook. This group often enters at points A, meaning they buy at point A and sell at point G, and open a buy trade at point Z. The rules of the zero-sum game exist fractally in all timeframes and activate the stop loss of amateurs.
+
+
+Chapter Two: Complementary Notes on NDS Strategy
+
+Double Top & Double Bottom Patterns
+
+In the schematic on the left, you can see a Double Top pattern. Because there are two equal-sized peaks, in the NDS strategy, we consider them as one peak and assign one number to it. In the schematic on the right, there is also a Double Bottom pattern where both bottoms are the same size and are considered one node in the NDS strategy.
+
+
+Numbering a Closed Hook
+
+As you can see in the schematic below, when a hook with nodes 1,2,3 is completely closed, then node 3 of the peak type can be considered as the large peak node 1 from the perspective of the higher timeframe. In other words, when a hook is closed, because it turns into a large peak in the higher timeframe, we can consider peak 3 of the lower timeframe hook as the same large peak 1 in the higher timeframe.
+
+
+Types of Hooks at the Beginning of the Market
+
+Usually, at the beginning of each trading session, due to high volume, hooks take various forms. Therefore, a professional NDS style trader must recognize these hooks according to the compressed nodes and be able to detect the footprint of banks.
+
+
+In the figure below, on the left, you can see two positive hooks, and on the right, you can see two negative hooks.
+
+
+Converting Flag to 123Flag Setup
+
+In the previous chapter, you learned that the NDS strategy is generally based on five pillars, and all the pillars of the strategy are interconnected. Therefore, in the second chapter of the manual, we intend to simplify the complexity of these five pillars and significantly change your view of the chart.
+
+
+As you know, the entire market is summarized in a Flag pattern. If you place the Flag pattern under a microscope, you will notice smaller waves and patterns. So it can be said that the 123F pattern is created from the Flag pattern. Therefore, it is enough to just look for a Flag pattern because all the patterns you have learned so far are fractally summarized in this one pattern. On the next page, you will become familiar with the components of a flag under a microscope.
+
+
+Flag in Flag
+
+Now that you understand how powerful a Flag pattern alone is and that it contains a complete cycle, we draw your attention to the image below. As you can see in the image, the market always forms two nested flags, which remind us of a complete cycle. Therefore, it can be concluded that whenever you capture a small flag within a larger flag, then you have detected a hook consisting of three peaks higher than each other and three troughs lower than each other. You can see how beautiful these patterns are and how they shape all market movements. So get your eyes accustomed to these two flags so that you can easily expect a drop from point 3 and make a profit.
+
+
+The Evolution of a Hook from Flags
+
+A complete hook consists of three nodes at the top and three nodes at the bottom. If we combine a small flag (Flag 1) with a medium flag (Flag 2), we will have a flag in flag (Flag 1 in Flag 2). Then if we consider the whole of these two flags as a big flag (Big Flag), we can expect that at the end of the flag there will be a drop (Drop), after which a hook will appear.
+
+
+Recognition of Trend with Different Methods
+
+In any trading strategy, recognizing a trend is one of the main pillars of a strategy, and if you do not recognize the trend of the higher timeframe and make Long/Short trades in lower timeframes, you will never make a profit from this market. Trend is your friend, so be friendly with the trend. It is worth noting that those who are Super Scalpers and sometimes trade in second timeframes will not need to recognize the higher trend (Big Picture Trend). But for those who trade in the three styles of Day Trading, Swing Trading, and Scalping that we described at the beginning of the course, recognizing the trend from the higher timeframe is essential for them. Therefore, in this chapter of the course, we address how to recognize a trend.
+
+
+In general, recognizing a trend is divided into four categories:
+✓ Nodes Sequencing
+✓ Hook-Hook-Rally pattern
+✓ Measuring two dimensions of Time & Price
+✓ Cycle & Fractal Analysis
+✓ Symmetries
+
+
+We will continue to address trend recognition methods and explain their stages from beginning to end.
+
+
+Trend Recognition with the Sequencing Method
+
+As we have explained before, sequencing is the movement of price from one node to another. Therefore, with knowledge of the sequencing topic, one can definitely predict the direction of the market to the next node. In the image on the right, when peak 3 forms higher than peak 2, the market will drop to trough 3.
+
+
+Therefore, in the red circle, which is the beginning of a downtrend, you can look for a setup in the lower timeframe. Suppose the price has dropped from the red circle to the yellow circle. Is the trend still downward in the yellow circle? Yes, because we still expect a drop below trough 2, and we can look for a setup in the entry timeframe at the end of upward corrections. Next, you can see that the price has dropped below trough 2. Now, because according to the Sequencing pillar, we know that whenever trough 3 is below trough 2, and trough 2 is below trough 1, we can expect a price reversal. Therefore, the downtrend ends in the green circle.
+
+
+Trend Recognition with the Sequencing Method
+
+As you can see in the chart on the right, in the red circle where peak 3 has formed, there is an expectation of a drop, meaning we can conclude that in the relevant timeframe, a downtrend has begun. But in the yellow circle, because we are close to trough 2, meaning we are approaching the end of the downtrend, it is better to exit Short trades.
+
+
+At trough 3, which you can see with the green circle, is the beginning of an uptrend, because according to the fourth pillar of the NDS strategy, after the formation of three troughs lower than each other, we will expect a price reversal. In the continuation of the uptrend, we have a green circle that still shows an uptrend.
+
+
+Trend Recognition Based on the Hook-Hook-Rally Pattern and Measuring Two Dimensions of Time & Price
+
+In the NDS strategy, whenever two hooks form one after another, we can expect a rally. The green circle is at the end of the first and second hooks. Therefore, it can be said that the market trend will be upward. So the higher timeframe trend is upward. If the hooks are strong, we will have a stronger rally.
+
+
+A strong hook takes more time than a weak hook. Therefore, if we call the time spent on the horizontal time axis (Time), the height of a hook can be a function of time (Time), which we call price (Price). Therefore, the more time a hook takes, the taller it will be, and it will be a strong hook. A large hook from beginning to end takes more time than a small hook. So with two strong hooks, we can expect a strong rally.
+
+
+Trend Recognition with Cycle Analysis and Symmetry
+
+In the chart on the right, you can see that we have a very large hook. We learned earlier that this large hook is the same complete cycle that consists of two phases, forward and return. Therefore, after the flag, we will expect a drop to 86.4%. So according to Cycle Analysis, we have realized that our trend is downward, and also according to Symmetry, we can measure the downward wave to B and expect a drop to point D (downward wave C to D) at the end of the upward correction (wave B to C). So generally, through Symmetry, we can approximately determine the direction of the market and also measure the amount of drop in the chart above.
+
+
+In this part of the course, you learned that through the pillars of Fractal Analysis, Cycle Analysis, and Symmetry, we can determine the direction of the trend and estimate the length of the trend movement. Next, we will describe the 123Flag setup and teach you its application.
+
+
+Description of 123Flag Setup and Its Use
+
+Earlier in the manual, we learned that 123Flag is the same as the large Flag pattern, and the large Flag pattern is the same as the Hook pattern, and all of them represent a complete cycle. Therefore, in the image below, on the left, you can see a complete cycle that on the right has been simplified and turned into a 123Flag setup, which has many applications in the NDS strategy. So you understood the philosophy behind the emergence of the 123Flag setup.
+
+
+The main application of the 123Flag setup is for the entry timeframe. Generally, whenever you recognize the main trend from the higher timeframe, then in your entry timeframe, you look for the 123Flag setup and enter in the yellow circle, which is the Flag. For example, if you saw an uptrend in the 30-minute timeframe, now you go to the 1-minute timeframe and look for the 123Flag setup. It is worth noting that to make a trade, you need a Checklist to be able to perform a trade from zero to one hundred step by step. Don't worry, in the third chapter, the complete step-by-step Checklist for making a trade is described.
+
+
+The Concept of Nodes Priority in Sequencing
+
+The priority in sequencing and node formation is ideally such that first node 1 up, node 1 down, node 2 up, node 2 down, node 3 up, and then node 3 down are formed, and then we will have a complete and ideal hook. Now suppose that nodes 1 and 2 at the top and bottom have formed one after another, and the price has currently formed node 2 down (schematic on the next page).
+
+
+As you can see in the schematic on the next page, there are two different scenarios, which we have marked the first scenario with orange dotted lines and the second scenario with blue dotted lines. If you assume that nodes 1 and 2 are half of a complete hook in the four-hour timeframe (white chart), then in the first scenario, if you observe two hooks, two rallies, and a flag in a smaller timeframe, for example, 5 minutes, it is expected that first the first scenario (dotted line) orange color will happen and node 3 up will form in the four-hour hook, and then a drop to node 3 down will occur in the four-hour hook. But if the first scenario is not realized in the smaller timeframe and the second scenario, which is a 123Flag setup in the smaller timeframe, is performed, we can no longer expect the price to rise to node 3 up, but a huge drop can be expected after the formation of 123Flag.
+
+
+Guaranteed Pattern
+
+Suppose the higher timeframe has an uptrend, and we as a trader should look for buying opportunities in the lower timeframe. Whenever we encounter the guaranteed pattern of the downward leg in the entry timeframe (Entry Timeframe) on the left side of the figure opposite, you will have a very certain chance for the price to return upward.
+
+
+To enter this pattern, you must first go to a lower timeframe than the entry timeframe, which we call Fine Tuning Entry, then look for the 123Flag setup and buy at point C. This pattern is so guaranteed that even if you blindly bought at points B, A, or C with an appropriate Position Sizing, sooner or later the price will be thrown upward, and your trades will be closed with profit.
+
+
+It is strongly recommended never to enter a trade blindly without the 123Flag setup.
+
+
+Flag to Flag Pattern
+
+As we said before, the entire market is hidden in the flag. Therefore, the market always ends from one flag to another flag.
+
+
+The figure opposite shows a negative hook pattern. In general, it can be said that any hook pattern, whether negative or positive, ends from one flag to another flag.
+
+
+According to the symmetry pillar, wave A to B is equal to wave C to D. When you capture this pattern, wait for a drop to occur from point 3 and the second negative hook to form, then after the second negative hook, expect a downward rally (Drop) according to the Hook-Hook-Rally pattern.
+
+
+123Flag to 123Flag Pattern
+
+The schematic opposite shows a positive hook pattern. In general, a hook pattern, whether negative or positive, can end from one 123Flag to another 123Flag.
+
+
+In the positive hook opposite, in the forward phase (ascending phase), after the formation of 123Flag (white nodes), it is expected that the positive hook will enter its downward half-cycle and again with the formation of 123Flag (red nodes), the hook will be completely closed on the 86.4% level.
+
+
+If we observe this positive hook, which consists of two 123Flags, in a higher timeframe, we will see that the mentioned hook is formed from two positive and negative flags (you can compare this positive hook with the negative hook on the previous page).
+
+
+Description of Day-Trading's Trade
+
+The checklist steps in the NDS strategy are similar in all three styles: Swing Trading, Day Trading & Scalping. Therefore, in this part of the course, we describe the steps of making a trade in the Day-Trading style. If you intend to trade in the Swing Trading style, you can first determine your timeframe for Swing Trading and then execute all these steps for Swing Trading as well.
+
+
+In general, to make a trade in any style, you need two higher and lower timeframes, so we divide the trading checklist into two general categories:
+
+
+Recognizing the trend in the higher timeframe (four-hour/one-hour/30-minute)
+Recognizing the entry setup in the lower timeframe (10-minute/5-minute/1-minute)
+
+First, we address recognizing the trend in the higher timeframe, and then after recognizing the trend, we will look for the entry setup in the lower timeframe.
+
+
+It is worth noting that if you have not performed trend recognition in the higher timeframe, your trades in the lower timeframe, which are performed solely with an entry setup, will be violated one after another.
+
+
+Therefore, for traders who intend to trade in the Swing Trading/Day-Trading/Scalping style, recognizing the trend from the higher timeframe is essential unless you are a Super-Scalper who quickly enters and exits in second timeframes and does not need the higher timeframe trend.
+
+
+Recognition of Trend & 123Flag in Higher/Lower TF
+
+As we explained earlier in the trend recognition section, when peak 3 is higher than peak 2, and peak 2 is higher than peak 1, we will definitely expect the price to drop. Therefore, in the red circle, it can be said that the higher timeframe trend, for example, 30 minutes, will be downward. So in the lower timeframe, do not look for buying at all because you will lose. Therefore, take help from the higher timeframe trend, which is your friend and helper, so that you can look for opportunities to sell in the lower timeframe.
+
+
+Now that our work with trend recognition in the 30-minute timeframe is complete, we can go to the lower timeframe and learn the steps of finding the entry position in the following pages.
+
+
+In previous sections, we learned that a 123Flag setup always consists of 4 nodes, and its application is finding the exact entry point in the direction of the higher timeframe trend. To access the 123Flag setup, it is necessary to mark node 3 that has formed in the higher timeframe and dissect this area in the lower timeframe and capture the 123Flag setup in that area (schematic of the following pages).
+
+
+A Short Trade's Day-Trading Checklist
+
+To make a Day Trading style trade, for example (Short), you must perform these steps step by step:
+
+
+First, determine the direction of the trend in the higher timeframe (M30-1Hour-4Hour). (We have identified the downtrend on the previous page)
+Go to the lower timeframe (M1-M5-M10) and look for the 123Flag setup, and at the Flag point, make the first Short position with an appropriate Position Sizing. (The method of calculating Position Sizing is explained in detail in the next chapter)
+Place the stop loss of the Short trade above the Flag and exit the profit incrementally in each local correction upward.
+Exit the first profit at open points 1 and 2. (Preferably exit one-third of your volume)
+Points 1 and 2 close with node 3. We will expect a local rally, so wait until it forms a 123Flag setup.
+After the formation of the 123Flag setup on 86.4 percent of the drop, enter the second Short trade at the Flag point.
+Place the stop loss of the second Short trade also above the Flag and exit the profit incrementally in each local correction upward.
+Measure the length of the downward leg and expect a drop of the same size approximately according to the symmetry pillar.
+Place your profit at the end of the symmetry of the previous downward leg and on open points 1 and 2.
+After points 1 and 2 are closed by node 3 and the symmetry is completed, we will expect a local rise, so exit one-third of the trade volume.
+In the continuation of this downtrend, for every setup you capture, you make a new Short trade, meaning you add to your trading volume in the direction of the downtrend. Whenever you reach open points 1 and 2 and the symmetry is also completed, exit one-third of the volume.
+This trend continues until you reach the final target, which is node 3 in the higher timeframe (M30-H1-H4), then exit completely.
+
+Description of Super-Scalping Trade
+
+One of the trading methods in the NDS strategy is trading in the Super-Scalping style. In this method, trading is done in lower timeframes (Min-30Seconds-10Seconds) without considering the market direction from the higher timeframe.
+
+
+Note: If the market direction is determined from the 30-minute timeframe and the Super Scalping trade is in line with the direction of the 30-minute timeframe trend, then that trade has more credibility and will increase the chance of success.
+
+
+For this purpose, to realize a Super-Scalping style trade, it is essential that the following items are observed and checked:
+
+
+Flag
+Sequencing of 123 Nodes - Formation of node 3 by reaching open nodes 1,2
+Symmetry
+86.4% level of the hook (Zero-Sum Game of Hook)
+Hook-Hook-Rally pattern
+
+Although with the first three confirmations, there is a possibility that a successful trade will result, one should look for positions that have all the above confirmations to increase the probability of success.
+
+
+Note: Trading in the Super-Scalping style requires high speed of action and quick decision-making, in the sense that as soon as the desired setup is formed, the trader enters at the moment and exits very quickly after the trade becomes profitable.
+
+
+A Short Trade's Super-Scalping Checklist
+
+To make a Super-Scalping trade, for example (Short), you must perform these steps step by step:
+
+
+Go to the lower timeframe (Min-30Seconds-10 Seconds) and look for an open hook and identify the 86.4% level of the hook.
+Wait until the market rises to the 86.4% level and the sequence from several dimensions of open points 12 closes with node 3.
+Try to identify the symmetries of legs and nodes so that you can find levels close to the 86.4% level.
+Capture the Flag pattern at the 86.4% levels and at the end of the symmetries that you obtained in steps 2 and 3.
+If this hook you intend to trade is the second hook, according to the Hook-Hook-Rally pattern, you can take the rally.
+Place your profit at point Z of the flag and the stop loss above the flag or above the second hook.
+With confirmation from the above steps, you are allowed to make the Short trade. In the schematic on the next page, you will become familiar with how to make a Short trade in the Super-Scalping style step by step.
+
+Calculating Trade Volume
+
+As you can see in the image on the right, in the 30-minute timeframe, peak N3 is above peak N2, and we expect a downtrend to begin. In the one-minute timeframe, after the formation of the 123Flag setup, we enter the Short trade at the Entry point. Placing the stop loss is always above the flag at the Stoploss point. Therefore, as a trader, we must first identify the entry setup, then calculate the distance from Stoploss to Entry so that we can size the position according to a specific risk management. In this example, the distance from Stoploss to Entry is 5 pips or 50 points.
+
+
+Therefore, if your capital is 
+1000
+a
+n
+d
+y
+o
+u
+w
+a
+n
+t
+t
+o
+r
+i
+s
+k
+2
+p
+e
+r
+c
+e
+n
+t
+,
+e
+q
+u
+i
+v
+a
+l
+e
+n
+t
+t
+o
+1000andyouwanttorisk2percent,equivalentto20, in each trade, you must first calculate the Stoploss amount, which in this example is 50 points, then with these values, obtain the trade volume in terms of lot, that is:
+
+
+Lot = (1000 × 2%) ÷ 50 (Points) = 0.4
+
+
+Types of Orders
+
+One of the important topics that can help improve your performance in trading is the page you are currently reading. Certainly, by knowing the methods of trading or placing orders, you can make trades at the floor or ceiling of the market price even when you are not behind the chart, which can bring you very good profits. First, we address what an order is and what role orders play in financial markets so that the trader has more freedom in the upcoming market positions. An order refers to opening a trade in global markets by a trader, and we are going to teach you the types of orders so that from now on, you can choose your appropriate order according to the strategy. In general, we have two types of orders:
+✓ MARKET ORDER
+✓ PENDING ORDER
+
+
+What is a Market Order?
+If you have traded in financial markets even once and have selected one of the BUY or SELL options, you have used a market order for your trades. This type of order is the simplest and most common type of order. Most novice traders use this type of order. In a MARKET ORDER, the trade is made at the moment and according to the current market price, and you just need to click on the BUY or SELL option. This type of order helps you to enter a trade very quickly and with one click in the market.
+
+
+Types of Orders
+
+What is a Pending Order?
+This type of Order allows you to make a trade at the prices and positions you analyze, meaning you instruct in the pending order settings that as soon as the chart reaches a certain price, the trade will open. For example, suppose you have analyzed the YM chart, and the current price of this chart is 32500. According to the analysis performed, you have predicted that when the price reaches 33000, there is a possibility of price correction (drop). Therefore, in the pending order section, you enter the number 33000 and also select the Sell Limit option, which we will address in the continuation of the manual.
+
+
+Note that when you set a pending order, until the order is activated, meaning the price does not reach the level you have specified, no capital of yours will be involved, but as soon as the price reaches the specified position, the order will be activated automatically. Sometimes the pending orders we specify are never activated, so if this happens to you, there is no need to be upset and blame yourself. This is something that happens to all traders, even the best ones.
+
+
+In general, Pending Order is divided into two categories:
+(1) Stop
+(2) Limit
+
+
+As you can see in the image opposite, the BUY STOP & SELL STOP options are divided into two STOP categories, and each has its own specific meaning and concept in the pending order that must be considered, otherwise, your pending will either not be executed or will be executed completely wrong. The LIMIT option is also divided into two categories: BUY LIMIT & SELL LIMIT.
+
+
+Note: These orders may have different names in any broker, which you can easily understand by reading the definition of each of the definitions in the broker in question. Therefore, here, due to the popularity of the MetaTrader platform among Iranians inside, we decided to explain these concepts compatible with this platform. On the next page, you will learn these concepts well.
+
+
+Types of Orders
+
+Look at the schematic opposite. In number (1), if the trader activates their trade as a MARKET ORDER, they enter a buy or sell trade (BUY / SELL) at that moment. So generally, in MARKET ORDERS, the trader enters the trade immediately at the current price.
+
+
+But in PENDING ORDERS, the trader plants their trade at higher or lower prices and waits for the platform to activate that trade.
+
+
+As you can see in number (2), the price has a distance to the BUY LIMIT order and also the BUY STOP order, and no trade has been activated yet. In the upper state, if the price goes upward, the BUY STOP order is activated and turns into BUY. In the lower state, if the price goes downward, the BUY LIMIT order is activated and then turns into BUY.
+
+
+In number (3), SELL LIMIT is shown above the price, and SELL STOP is shown below the price. If the price goes upward, the SELL LIMIT trade is activated and turns into SELL, but if the price goes downward, the SELL STOP trade is activated and will turn into SELL.

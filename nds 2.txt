@@ -1,0 +1,254 @@
+The inception of the groundbreaking Nodal Displacement Sequencing (NDS) approach can be attributed
+to the visionary physicist, Iraj Jafarian, also known as Fuzzy Logic. With a specialization in quantum theory,
+Dr. Jafarian's unique perspective and expertise allowed him to develop a fresh approach to market
+analysis, which has disrupted traditional market models. NDS offers a new method of predicting market
+behavior that is consistent, systematic, and reliable. Dr Jafarian's work in this field has transformed the
+way we think about financial markets and has opened up new avenues for understanding and predicting
+market dynamics.
+
+The purpose of this research project is to introduce a revolutionary explanatory framework for
+comprehending market behavior. Dubbed Nodal Displacement Sequencing (NDS), this pioneering
+approach strives to provide a dependable and systematic mechanism for forecasting futures market
+activity. By utilizing a matrix structure that encompasses all zero-sum instruments, including Forex,
+Futures, and commodities, this innovative concept can drastically minimize the risk envelope. In essence,
+NDS will bring about a paradigm shift similar to that of quantum physics, which superseded
+classical/Newtonian physics by discarding technical indicators and several prevailing quantitative models.
+Crafting a financial mathematical or geometrical model demands a set of preconceived notions about the
+underlying assets. Regrettably, many of these assumptions prove to be flawed, relying on arbitrary
+variables to demarcate risk boundaries. For instance, a basic stochastic model presupposes that 14 units
+of time delineate the pinnacle of the volatility cycle, sans any rationalization.
+
+The number 14 appears to be a whimsical value imposed upon the model, devoid of mathematical or
+statistical justification. Nonetheless, numerous self-styled technical analysts employ this imprecise
+assumption with reckless abandon. Alas, such ill-conceived suppositions are also evident in the current
+quant models. Nodal Displacement Sequencing is a cutting-edge geometric model that deviates from
+conventional financial literature to anticipate market behavior. Rather than relying on existing literature or
+unjustifiable variables, it utilizes a new understanding of cyclic nodes formed in market profiles as a result
+of conscious participants inundating the order books to follow trends or capitalize on prevailing
+momentum. In this model, historical nodes (established flooded reversal points) are used to predict the
+next cycle formation using fractal and symmetry concepts, expressed in a mathematical format, making it
+an algorithmic model. Essentially, instead of imposing unjustifiable variables such as X units of time to
+measure volatility and market direction, the model starts with the established price level to predict the
+next sequence, employing NDS criteria grounded in price symmetry and fractal engineering. Nodal
+Displacement offers institutional traders an accurate and systematic roadmap to assess position risk,
+along with a clear price target and market direction.
+
+The Nodal Displacement Sequencing (NDS) is recognized as a geometric model that elucidates the
+behavior of the market or the price action. It aims to provide a comprehensive explanation of how the
+market functions and how prices fluctuate using specific geometric principles. The model seeks to provide
+a clear and systematic approach to understanding market movements and price behavior through its
+geometric framework. To be able to achieve the above one would need a new set of definitions as follows.
+
+
+Nodes play a significant role in mathematical finance, although
+their definition may vary depending on the context. In the
+context of Nodal Displacement Sequencing (NDS), a node
+refers to a specific point in time where momentum exhausts
+and the market changes direction, forming a Zig Zag pattern.
+Nodes have a matrix structure with high, low, close, and open
+forming a 1 by 4 matrix. These levels can be identified every
+day using various mathematical/quantitative equations. Nodes
+are a crucial element of the market geometry model in NDS as
+they provide a way to model and analyze the complex and
+dynamic movements of prices and contracts over time. In
+summary, Nodes serve as a fundamental component of NDS's
+approach to predicting market behavior and assessing risk.
+
+The market cycle refers to the existence of a certain pattern of fluctuations in the financial markets over X
+period of time from a few seconds to a month or even years. It is characterized by periods of expansion,
+peak, contraction, and trough. These cycles are the representation of the fear and greed of the market
+participants resulting in a zero-sum market structure where the gains of one trader come at the expense
+of another. These cycles have a certain deterministic geometry but do not adhere to a fixed or constant
+pattern. This is because, apart from price, there are two other variables that come into play, time and
+volume. Consequently, the market comprises three fundamental dimensions: price, time and volume.
+Every trading session presents a unique set of cycles due to the fluidity of the order flow in the market. To
+attain proficiency in identifying these cycles in Discretionary Trading, one must undergo rigorous mental
+training and acclimate their eyes to these recurring patterns. However, fret not, as with time, this skill will
+be deeply ingrained in your subconscious, and you will be able to decipher these patterns with ease.
+Nodal displacement uses cycles and fractals to identify the top and bottom of these cycles.
+
+The structure of a positive hook is shown here. In an ideal
+hook pattern, we have three peaks and three valleys. In type
+A positive hook we have 3 peaks followed by three valleys to
+close the cycle. Notice how point 3 closes above point T
+which is roughly around 86.4% of the length of the upward
+move. The accompanying schematic shows the pattern of a
+positive hook of type A at the end of the downtrend. Here
+you can expect the price to go above the node 3.
+
+A trading pattern known as the Flag holds significance as it signals the end of a trend. The Flag pattern is
+often described as a sequence of events that begins with a rally, followed by the entry of sellers or SMI,
+and ultimately, the emergence of a low volume upward spike from point Z to point F. However, the price
+cannot sustain its upward trajectory at point F, and it will inevitably start to decline towards point T, thus
+marking the end of the cycle. The occurrence of a Flag is a pivotal point in the trend. As such, the Flag
+pattern is often closely watched by traders and investors, as it can provide valuable insights into market
+trends and potential opportunities for reversal. In other words, The process starts with the formation of a
+rally, and subsequently, sellers come into the market. Eventually, there is an upward low volume spike,
+between point Z and point F. The price at point F cannot maintain its upward trend and begins to decline,
+leading to point T, which completes the cycle.
+
+The concept of futures market symmetry is an essential aspect of Nodal Displacement Sequencing (NDS)
+analysis. It involves examining the length of a move in a particular direction and how far it will stretch to
+reach a specific node. The mathematics of futures market symmetry is a complex and continuously
+evolving field, with various techniques and models being used to analyze price action behavior. Traders
+and investors use these techniques to gain insights into potential market movements, identify price
+targets, and inform their trading decisions. Despite its complexity, futures market symmetry remains a
+critical component of market analysis, helping to inform and shape our understanding of financial
+markets.
+
+The concept of a fractal futures market in mathematical finance involves using the principles of fractal
+geometry to model and analyze financial markets. A fractal is a mathematical pattern that repeats itself at
+different scales and time frames.
+
+This article endeavors to introduce the formidable strategy of Nodal Displacement Sequencing or NDS,
+which is based on five fundamental pillars. The foremost pillar, Fractal Analysis, occupies the apex of this
+pyramid and provides a bird's eye view of the market, where higher time frames exert influence on lower
+time frames, and the lower ones collaborate to construct higher time frames. Cycle Analysis forms the
+second pillar, and it scrutinizes all types of cycles while examining their constituents. However, since Cycle
+Analysis is a prerequisite for Fractal Analysis, we will initially delve into Cycle Analysis to acquaint
+ourselves with its elements before proceeding to the first pillar, Fractal Analysis.
+
+The third pillar, aptly named Symmetry,
+is a vital component of the NDS which is
+defined as a geometric transformation
+and a spatial relationship of the extent
+by which buyers or sellers are prepared
+to pay for a certain contract, Symmetry
+is ubiquitous across various time frames
+from 1 second to yearly. The fourth
+pillar, Sequencing, stands as the central
+and most crucial element. The other
+pillars are merely tools that support the
+core of the Sequencing pillar.
+
+This central pillar involves the sequential execution of nodes in a specific order, following the principle of a
+certain geometry denoted by nodal numbering for example a certain node might have a certain level which
+also carries a number associated with the node and the sequencing will move the market from one node to
+the subsequent node. The sequencing is always done in a systematic and ordered manner. The Sequencing
+pillar holds great importance in the market, as it is often observed in the natural cycle of seasons. Spring,
+summer, autumn, and winter, for example, always follow a predetermined order without fail, maintaining a
+definitive and unchanging sequence. We will delve deeper into this topic later in, exploring the intricacies of
+this fundamental pillar and its significance in the market. The fifth pillar, Zero-Sum Game, is a mathematical
+model of cycles opening and closing without failure in a situation in which one participant's gain or loss is
+exactly equal to the losses (or gains) of the other participant(s). Below we will fully explain these five pillars
+and then combine them.
+
+It is understood that all zero-sum markets follow a cyclical pattern. Although these cycles are repeatable,
+they are not easily distinguishable due to the fluctuation in daily trading volume. As the volume is
+variable, the shape of the cycles also varies, but they all share a certain defining character. The present
+chapter delves into the anatomy of a typical cycle, exploring its key features and characteristics. On the
+next page, the schematic shows the overview of a positive cycle consisting of two Hook patterns, two
+Rally patterns, and a Flag pattern. After the flag pattern, there is a downward drop, and the cycle closes at
+the T point. So, in general, you can say that a cycle starts at point R and goes through two hooks, two
+rallies, and a flag to point F and then drops to close the cycle at point T.
+
+As you can see in the cycle anatomy, at the end of Rally, there is a drop called a Sellers Move In or SMI.
+This term means that the sellers have moved in after which, the price rises a sharp exponential upward
+move, but with a low volume (Low Volume Spike). This spike is the essential part of the reversal process
+and the final upward node formation. A full cycle can be divided into the following subdivisions as follows
+Hook1, Hook2, Rally, sellers moving in or SMI, Low volume spike or flag. We have already outlined the
+structure of a hook of various forms so we move on to explain the structure of a rally. After the formation
+of 2 consecutive hooks rally starts. The structure of a rally is seen on the next page.
+
+In the realm of trading strategies, a prudent approach dictates that, prior to initiating any trade, one must
+be well-informed of the prevailing direction of the higher time frame market. Due to its dominating
+influence on the lower time frames, a firm grasp of the longer time frame forces is of paramount
+importance. It is only by doing so that the odds of emerging victorious can be favorably shifted in one's
+favor. Achieving accurate market direction is contingent upon a solid comprehension of fractals and their
+intrinsic properties. Indeed, fractals are linked to the recurrence of self-similar patterns in nature, with
+varying appearances resulting from fluctuations in daily trading volumes. Nonetheless, the systematic
+designation of nodes within these discernible patterns remains strikingly similar across all timeframes,
+from seconds to years resulting in a cycle With a certain anatomy. In fractal analysis, smaller patterns join
+together to create bigger patterns. So, by this definition, we can say that any small pattern can later
+develop into a bigger structure as seen below.
+
+As seen above there are smaller cycles within larger cycles. In other words, a daily cycle has many many
+cycles within it which open and close in turn to eventually all cycles close one after the other. The higher
+time frame forces the lower time frame to open and close in a certain way The schematic presented
+above showcases the Daily cycle comprising three smaller H1 cycles. The R point marks the
+commencement of both the Daily cycle and the small H1 cycle, with the first H1 cycle concluding shortly
+thereafter at 86.4% of its total length. The subsequent H1 cycle begins immediately and ends at 86.4% of
+itself, while the large Daily cycle remains open. After the closure of both small H1 cycles, the large H1
+cycle starts and ascends to point F. Finally, at point T, both the large H1 cycle and the Daily cycle come to
+an end. This phenomenon represents a fractal perspective of the market, where H1 cycles initiate and
+culminate consecutively, eventually closing their parent Daily cycle. With persistent practice and an
+understanding of large and small cycles, one's mind becomes accustomed to this perspective with ease.
+Notably, the fractal form of cycles observed earlier, in the shape of a half-circle, is, in fact, a cycle in itself.
+
+Symmetry is considered a fundamental principle
+of the NDS strategy that is applied in the market.
+The concept of price symmetry revolves around
+the notion that all rallies/pullbacks in the market
+follow a specific length, where they extend to a
+certain length to hit their target. This structure is
+clearly visible in the following diagram.
+
+The analysis of market structures through the use of the (NDS) can be described as the examination
+of a market cycle or fractal and the subsequent sequential movement of price from one node to
+another. These nodes, when executed, give rise to price action and serve as the fundamental driving
+forces behind market movements. A complete cycle is composed of five primary patterns, consisting
+of two hooks, two rallies, and a flag as introduced earlier. In the following pages, readers will gain
+insight into using the five pillars mentioned in the previous chapters.
+
+It is widely acknowledged that adherence to a set of rules is essential for achieving success. This
+sentiment is particularly true when it comes to trading in the futures market. By building on the
+definitions and concepts previously outlined, we can now delve into the specific rules that govern this
+complex arena. These rules are objective and straightforward, emphasizing the importance of
+following a well-defined set of guidelines in order to achieve success in the futures market.
+Rule 1
+We get the market direction from a higher timeframe and entry from a lower timeframe and not the
+other way around. For day trading, 10 Minutes timeframe for market direction and 1 Minute
+timeframe for entry is a perfect scenario. To further fine-tune the entry one can investigate the 30
+Seconds timeframe.
+
+Rule 2
+Market direction is defined by 2 open nodes as
+seen here, in this schematic since we have had 2
+lots of open N1 and N2, the market direction is
+up after the formation of the 1,2,3 as seen. This
+is also true for the market downtrend
+
+Rule 3
+Lower time frames have priority in closing the cycles but they DON'T CHANGE longer time frame
+market direction.
+Rule 4
+The end of any trend must display 3 lower lows (end of a downtrend) and 3 higher highs (end of a
+uptrend). Reversal starts with Hook Hook Rally to close the next cycle.
+Rule 5
+There is no rule 5. However one needs to familiarize himself with these geometrical patterns to be
+able to fully take advantage of the power of NDS.
+Stop-Loss and Target
+All trades must have a meaningful Stop-Loss. The Stop-Loss in NDS is a few points below the last
+formation of 123.
+The target is above the LAST N1 N2.
+
+This is a proprietary subject but I will give an indication of how the geometry of the market can be
+translated into the mathematics of price action suitable for algorithmic trending. There is a multitude
+of ways to model NDS. One such approach is through the use of candlesticks, which can be used to
+model patterns such as the 123 pattern or flag at the end of any trend. By examining how 10-minute
+candles are formed within a given period of time, traders can identify potential long positions based
+on three lower lows occurring within X period. This strategy, while simple, only takes into account the
+immediate buying or selling pressure ignoring the fractal nature of the market and is best suited for
+short-term scalping scenarios. Another approach to modelling NDS is through pattern recognition,
+which can now be accomplished with the aid of artificial intelligence using a knowledge base of chart
+patterns. By matching a given scenario to a database of known reversal patterns, traders can make
+more informed decisions about when to enter or exit positions.
+
+Finally, the preferred method of modelling NDS is through quantitative and mathematical analysis. As explained
+before every reversal point forms a point called a node. These nodes are a matrix representing the price action
+{open, close, high, low}. In NDS we only use high and low to mark the nodes so there will be a 1 by 2 matrix
+instead of 1 by 4 There will also be the variable of time within which the market moves from one node to
+another but that will not be discussed here as it is part of the proprietary model. The mathematics of NDS is to
+execute the sequential order of these nodes irrespective of the occurrence of any news or events surrounding
+the instrument. The sequence of NODES that reflects the price movements in financial markets is often seen as a
+fundamental aspect of trading. These sequences, once initiated, cannot be altered by any news or events that
+may occur. Instead, such events act as catalysts that accelerate the movement of prices from node to node. This
+means that even major events such as the COVID-19 pandemic, which resulted in a massive slowdown of the
+global economy, could not stop the overall uptrend of the market. The mathematics of NDS, as developed by the
+author, is a complex system that requires expertise in AI to fully fine-tune. The model employs a series of
+polynomial functions to accurately model patterns such as flags, hooks, and the 123s. These functions produce
+an estimate of the price target, but traders can use a transform function to feedback on any errors in the
+previous nodes using AI. This allows for a more precise prediction of price movements both for time and price
+
+
+
